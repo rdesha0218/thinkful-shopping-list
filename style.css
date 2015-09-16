@@ -1,0 +1,32 @@
+* {
+	list-style: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+header {
+	padding:15px 0;
+	width:100%;
+}
+
+section {
+	background: url('stocksnap.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 960px;
+	color:white;
+}
+
+.center {
+	padding-top:100px;
+	height:100px;
+	width:100%;
+
+}
+.list {
+	height:50%;
+	width:100%;
+}
+
+footer {
+	margin-top:50px;
+}
