@@ -4,8 +4,11 @@
 	text-align: center;
 }
 header {
+	background-color: #DF340B;
+	background-size: cover;
 	padding:15px 0;
 	width:100%;
+	color:#C4E0F3;
 }
 
 section {
@@ -13,20 +16,34 @@ section {
 	background-size:cover;
 	background-repeat: no-repeat;
 	height: 960px;
-	color:white;
 }
 
 .center {
 	padding-top:100px;
 	height:100px;
 	width:100%;
-
+	color:#F0F3D8;
+}
+button {
+	border-radius: 5px;
+	margin-left: 20px;
 }
 .list {
-	height:50%;
+	color:#F0F3D8;
+	font-size:20px;
+	height:200px;
 	width:100%;
 }
-
+.reset {
+	text-transform: uppercase;
+	font-size: 20px;
+	border-radius: 5px;
+}
 footer {
-	margin-top:50px;
+	color:#C4E0F3;
+	padding:25px 0px;
+	background-color: #C0BB3C;
+	background-size: cover;
+	height:50px;
+	width: 100%;
 }
