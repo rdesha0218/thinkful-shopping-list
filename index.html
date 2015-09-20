@@ -5,6 +5,8 @@
 	<title>Shopping List</title>
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <header>
 		<h1>Shopping List</h1>
@@ -12,21 +14,16 @@
 <body>
 	<section>
 		<div class="center">
-			<h2>Items</h2>
+			<h1>Items</h1>
+			<p>Simply click on an item to remove it</p>
 			<form>
 				<input type="text" name="list_item">
 				<button type="button">Add</button>
+				<br>
+				<div class="list"></div>
 			</form>
 		</div>
-
-		<div class="list">
-			<ul>
-				<li>Eggs<button type="button">Cross Out</button></li>
-				<li>Coffee<button type="button">Cross Out</button></li>
-				<li>Cooking Oil<button type="button">Cross Out</button></li>
-			</ul>
-				<form><button class="reset" type="button">Reset</button>
-		</div>
+		
 	</section>
 </body>
 <footer>
